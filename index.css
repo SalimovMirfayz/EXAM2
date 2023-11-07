@@ -1,0 +1,261 @@
+html{
+    font-size: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e1f1f;;
+}
+.header{
+    padding: 15px 0 17px;
+    
+    
+      
+}
+.wrapper{   
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    gap: 12px;
+}
+.list-item{
+    list-style: none;
+    font-size: 30px;
+    list-style: none;
+    font-family: "Popins",sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.list-item:hover{
+   
+    color: rgb(31, 77, 77);
+    text-decoration-line: underline;
+}
+.list-item:active{
+    scale: 0.98;
+}
+.cont{
+    text-decoration: none;
+}
+/* section header end */
+/* section banner start  */
+.banner{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   border: 3px solid #fff;
+   width: 1000px;
+   height: 500px;
+   font-family:"Alumni","Sans","Collegiate","One",sans-serif ;
+}
+.img{
+    width: 50%;
+}
+.photo{
+    border-radius: 100px;
+    padding: 30px;
+    width: 400px;
+    height: 400px; 
+}
+.font-famly{
+    font-size: 4rem;
+    color: green;
+}
+.lorem{
+    font-size: 2rem;
+  color: #fff;
+  font-family: "san-serif";
+}
+/* section banner end  */
+/* section contacs start  */
+.container__title{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container{
+ 
+    border: 3px solid white;
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.button{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 4rem;
+}
+.button:hover{
+    border-radius: 30px;
+    max-width: 160px;
+    background: #172a56;
+}
+.button:active{
+    scale: 0.98;
+}
+.item{
+   margin-top: 20px;
+}
+.list{
+  
+    margin-left: 50px;
+    list-style: none;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Email{
+    background-image: url(./img/ikons-1.svg);
+    text-decoration: none;
+    background-image: url();
+    color: #172a56;
+}
+.Telegram{
+    background-image: url(./img/ikons-2.svg);
+    text-decoration: none;
+    background-image: url();
+    color: #172a56;
+}
+.GitHub{
+    background-image: url(./img/ikons-3.svg);
+    text-decoration: none;
+    background-image: url();
+    color: #172a56;
+}
+.title{
+    
+    border:  1px solid white;
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.sum{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 3rem;
+}
+.sum:hover{
+    border-radius: 30px;
+    max-width: 150px;
+    background: #172a56;
+}
+.sum:active{
+    scale: 0.98;
+}
+.about{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 3rem;
+    color: #172a56;
+}
+.skills{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.summery__container{
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid white;
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    
+ 
+}
+.tbn{
+    font-size: 5rem;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.tbn:hover{
+    border-radius: 30px;
+    max-width: 150px;
+    background: #172a56;
+}
+.skills__link{
+    font-size: 4rem;
+}
+li{
+    color: #172a56;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    margin-left: 50px;
+    list-style: none;
+}
+.Education{
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid white;
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+}
+.education{
+    font-size: 4rem;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.education:hover{
+    border-radius: 30px;
+    max-width: 180px;
+    background: #172a56;
+}
+.education:active{
+    scale: 0.98;
+}
+.item-education{
+    font-size: 4rem;
+    color: #172a56;
+}
+.Languages__title{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid white;
+    width: 600px;
+    height: 200px;
+    border-radius: 50px;
+    
+}
+.lan{
+    font-size: 4rem;
+    margin-left: 50px;
+    margin-top: 20px;
+   
+}
+.lan:hover{
+    border-radius: 30px;
+    max-width: 180px;
+    background: #172a56;
+}
+.lan:active{
+    scale: 0.98;
+}
+.languages-title{
+    font-size: 4rem;
+    color: #172a56;
+}
+.color{
+    margin-left: 490px;
+    margin-top: 30px;
+    font-size: 3rem;
+    color: #fff;
+}
